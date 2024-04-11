@@ -21,7 +21,7 @@ pip install setup.py
 # Usage
 
 ```python
-from flaskauthovalidator.validator import Auth0JWTBearerTokenValidator
+from authovalidator.validator import Auth0JWTBearerTokenValidator
 
 require_auth = ResourceProtector()
 validator = Auth0JWTBearerTokenValidator(

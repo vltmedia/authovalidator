@@ -6,7 +6,7 @@ from flask import Flask, jsonify
 from authlib.integrations.flask_oauth2 import ResourceProtector
 import sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from flaskauthovalidator.validator import Auth0JWTBearerTokenValidator
+from authovalidator.validator import Auth0JWTBearerTokenValidator
 
 require_auth = ResourceProtector()
 validator = Auth0JWTBearerTokenValidator(
