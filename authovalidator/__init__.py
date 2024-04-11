@@ -1,0 +1,1 @@
+from authovalidator import validator
