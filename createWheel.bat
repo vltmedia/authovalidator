@@ -2,4 +2,4 @@ rmdir /s /q dist
 
 call python.exe setup.py bdist_wheel --universal
 
-call pip.exe install dist\flask_autho_validator-1.0.0-py2.py3-none-any.whl --force-reinstall --upgrade
+call pip.exe install dist\flaskauthovalidator-1.0.0-py2.py3-none-any.whl --force-reinstall --upgrade
